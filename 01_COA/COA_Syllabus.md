@@ -10,7 +10,7 @@
 
 | # | Lecture Title | Video Link | Status / File | Key GATE Concepts Covered |
 | :-: | :--- | :---: | :---: | :--- |
-| **01** | **Introduction of COA** | [Watch (K4XNDYBb8Us)](https://youtu.be/K4XNDYBb8Us) | [Lecture_01_Fetch_Cycle_Memory_Addressing.md](./Lecture_01_Fetch_Cycle_Memory_Addressing.md) ✅ | System Components, Fetch Cycle (`PC → MAR → Mem → MBR → IR`), Instruction Cycle with Interrupt, Byte vs Word Memory, Return Address Trap |
+| **01** | **Introduction of COA** | [Watch (K4XNDYBb8Us)](https://youtu.be/K4XNDYBb8Us) | [Notes](./Lecture_01_Fetch_Cycle_Memory_Addressing.md) ✅<br>[GATE Questions](./GATE_Questions_Lecture_01_Memory_Clock_Cycle.md) 🎯<br>[PSU Questions (ISRO/BARC/DRDO)](./PSU_Questions_Lecture_01_ISRO_BARC_DRDO_NIELIT.md) 🚀 | System Components, Fetch Cycle (`PC → MAR → Mem → MBR → IR`), Instruction Cycle with Interrupt, Byte vs Word Memory, Return Address Trap, Clock Cycle Problems |
 | **02** | **Machine Instruction & Addressing Modes - 1** | [Watch (ACiTEIovG4U)](https://youtu.be/ACiTEIovG4U) | Pending | Memory Architecture, Byte vs Word Addressable Memory, Memory Locations, Byte Ordering (Big Endian vs Little Endian) |
 | **03** | **Machine Instruction & Addressing Modes - 3** | [Watch (q1dVkbkWLX4)](https://youtu.be/q1dVkbkWLX4) | Pending | Instruction Cycle Stages, Instruction Formats (0, 1, 2, 3 Address), Addressing Modes & Effective Address Calculation |
 | **04** | **Floating Point Representation & Opcode** | [Watch (bcypw6d2aJs)](https://youtu.be/bcypw6d2aJs) | Pending | Expanding Opcode Technique, Instruction Encoding, Addressing Modes & Instruction Word Length |
