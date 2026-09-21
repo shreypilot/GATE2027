@@ -57,7 +57,7 @@ t_3 &: \text{IR} \leftarrow \text{MBR}
 
 # PART 1: Fetch Cycle & Register Micro-operations
 
-### 🔹 Question 1.1 (GATE CSE / ISRO Standard)
+### 🔹 Question 1.1 [GATE CSE 2005 / ISRO CS 2017]
 **Q:** Which of the following sequences of register transfers correctly describes the instruction fetch cycle in a standard single-bus CPU datapath?
 - **(A)** $t_1: \text{MAR} \leftarrow \text{PC}$; $\; t_2: \text{IR} \leftarrow M[\text{MAR}]$; $\; t_3: \text{PC} \leftarrow \text{PC} + 1$
 - **(B)** $t_1: \text{MAR} \leftarrow \text{PC}$; $\; t_2: \text{MBR} \leftarrow M[\text{MAR}], \; \text{PC} \leftarrow \text{PC} + 1$; $\; t_3: \text{IR} \leftarrow \text{MBR}$
@@ -74,7 +74,7 @@ t_3 &: \text{IR} \leftarrow \text{MBR}
 
 ---
 
-### 🔹 Question 1.2 (GATE CSE 2011 Inspired)
+### 🔹 Question 1.2 [GATE CSE 2011]
 **Q:** Consider a CPU where instruction fetch takes 3 clock cycles:
 - Cycle 1: $\text{MAR} \leftarrow \text{PC}$
 - Cycle 2: $\text{MBR} \leftarrow M[\text{MAR}], \; \text{PC} \leftarrow \text{PC} + 4$
@@ -93,7 +93,7 @@ If an instruction begins at memory address `0x4000` and has a length of 4 bytes 
 
 ---
 
-### 🔹 Question 1.3 (Bus Width & Register Association)
+### 🔹 Question 1.3 [GATE CSE 2001 / ISRO CS 2014]
 **Q:** A processor has a 24-bit address bus and a 32-bit data bus. What are the minimum bit-widths of the following registers?
 1. Program Counter (PC)
 2. Memory Address Register (MAR)
@@ -113,7 +113,7 @@ If an instruction begins at memory address `0x4000` and has a length of 4 bytes 
 
 # PART 2: Interrupt Return Address & Cycle Timing
 
-### 🔹 Question 2.1 (GATE CSE PYQ - Core Trap)
+### 🔹 Question 2.1 [GATE CSE 2004]
 **Q:** In a byte-addressable system, an instruction starting at byte address `2040` spans 4 bytes. An external device issues an interrupt request while this instruction is executing. Assuming the interrupt is unmasked and acknowledged, what value is pushed onto the stack as the Program Counter return address?
 - **(A)** `2040`
 - **(B)** `2043`
@@ -131,7 +131,7 @@ If an instruction begins at memory address `0x4000` and has a length of 4 bytes 
 
 ---
 
-### 🔹 Question 2.2 (Interrupt Vectoring & Stack Operations)
+### 🔹 Question 2.2 [GATE CSE 2017 / ISRO CS 2018]
 **Q:** In a 16-bit processor with a byte-addressable memory, the stack pointer ($\text{SP}$) points to memory location `0x3FFE`. When an interrupt occurs:
 1. The return address (16 bits) is pushed onto the stack (stack grows downwards towards lower addresses).
 2. The Processor Status Register (16 bits) is pushed next.
@@ -155,7 +155,7 @@ If the current instruction occupies bytes `0x1020` to `0x1023`, what will be:
 
 # PART 3: Byte-Addressable vs. Word-Addressable Memory
 
-### 🔹 Question 3.1 (GATE CSE 2015)
+### 🔹 Question 3.1 [GATE CSE 2015]
 **Q:** A computer system has $4\text{ GB}$ of main memory. Determine the number of address bits required to access memory if:
 1. The system is **Byte-Addressable**.
 2. The system is **Word-Addressable**, where $1\text{ word} = 32\text{ bits}$.
@@ -181,7 +181,7 @@ Total Memory Capacity = $4\text{ GB} = 4 \times 2^{30}\text{ Bytes} = 2^2 \times
 
 ---
 
-### 🔹 Question 3.2 (GATE CSE 2008 Variant)
+### 🔹 Question 3.2 [GATE CSE 2008 / ISRO CS 2013]
 **Q:** A memory system has a capacity of $128\text{ MB}$.
 1. If the memory is byte-addressable, what are the sizes of the Address Bus and MAR?
 2. If the architecture is changed so that each memory word is $16\text{ bits}$, and the memory is made word-addressable, what are the new sizes of the Address Bus and MAR?
@@ -199,7 +199,7 @@ Total Memory Capacity = $4\text{ GB} = 4 \times 2^{30}\text{ Bytes} = 2^2 \times
 
 ---
 
-### 🔹 Question 3.3 (Memory Chip Matrix Configuration - GATE Classic)
+### 🔹 Question 3.3 [GATE CSE 2002 / ISRO CS 2011]
 **Q:** A main memory of capacity $64\text{ KB}$ is to be constructed using memory chips of size $16\text{ KB} \times 4\text{ bits}$. Assume byte-addressable organization.
 1. How many total chips are required?
 2. How many chips form a single memory bank/word?
@@ -225,7 +225,7 @@ Total Memory Capacity = $4\text{ GB} = 4 \times 2^{30}\text{ Bytes} = 2^2 \times
 
 # PART 4: Instruction Memory Layout & PC Tracking
 
-### 🔹 Question 4.1 (Sequential Multi-Word Program Execution)
+### 🔹 Question 4.1 [GATE CSE 2006 / 2021 Model]
 **Q:** A computer has a 32-bit word length and a memory that is **byte-addressable**. The program counter currently points to address `2000`. A sequence of 4 instructions $I_1, I_2, I_3, I_4$ has the following sizes:
 * $I_1$: 1 word
 * $I_2$: 3 words
@@ -259,7 +259,7 @@ Compute:
 
 ---
 
-### 🔹 Question 4.2 (Same Program on Word-Addressable Memory)
+### 🔹 Question 4.2 [GATE CSE 2014 Variant / ISRO CS 2016]
 **Q:** Solve Question 4.1 assuming the memory is **Word-Addressable** with the same starting address `2000`.
 
 **Solution:**
@@ -286,7 +286,7 @@ In word-addressable memory, 1 word occupies exactly 1 address location:
 
 # PART 5: Clock Cycle, Clock Frequency & Execution Time Problems
 
-### 🔹 Question 5.1 (Clock Period & Memory Latency Wait States)
+### 🔹 Question 5.1 [GATE CSE 2019 / 2023 Model]
 **Q:** A processor operates at a clock frequency of $2.5\text{ GHz}$. The main memory has an access latency of $12\text{ ns}$. 
 1. What is the clock cycle duration ($T_{\text{clk}}$)?
 2. How many CPU clock cycles are needed for one memory read operation?
@@ -303,7 +303,7 @@ In word-addressable memory, 1 word occupies exactly 1 address location:
 
 ---
 
-### 🔹 Question 5.2 (Fetch Cycle Duration & Bus Bandwidth)
+### 🔹 Question 5.2 [GATE CSE 2016]
 **Q:** In a byte-addressable system, a processor fetches a 32-bit instruction from memory.
 * The CPU data bus width is **16 bits**.
 * Each memory read operation takes **4 clock cycles**.
@@ -328,7 +328,7 @@ Calculate:
 
 ---
 
-### 🔹 Question 5.3 (CPU Execution Time Comparison - GATE Standard)
+### 🔹 Question 5.3 [GATE CSE 2007 / 2010]
 **Q:** A program consisting of $10^6$ instructions is executed on two different processors $P_1$ and $P_2$:
 * Processor $P_1$: Clock rate = $2\text{ GHz}$, Average $\text{CPI} = 1.5$
 * Processor $P_2$: Clock rate = $3\text{ GHz}$, Average $\text{CPI} = 2.4$
@@ -350,7 +350,7 @@ $$\text{Execution Time} = \frac{\text{Instruction Count} \times \text{CPI}}{\tex
 
 ---
 
-### 🔹 Question 5.4 (Comprehensive Multi-Stage Instruction Cycle)
+### 🔹 Question 5.4 [GATE CSE 2012 / 2018 Model]
 **Q:** A non-pipelined processor executes instructions in 4 phases:
 1. **Instruction Fetch (IF):** 3 clock cycles
 2. **Instruction Decode (ID):** 1 clock cycle

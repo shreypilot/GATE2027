@@ -18,7 +18,7 @@
 
 # SECTION 1: ISRO Scientist/Engineer 'SC' Questions
 
-### 🔹 Question 1.1 (ISRO CS 2017)
+### 🔹 Question 1.1 [ISRO CS 2017]
 **Q:** Which of the following registers is loaded with the contents of the memory location pointed by the Program Counter (PC)?
 - **(A)** Memory Address Register (MAR)
 - **(B)** Instruction Register (IR)
@@ -32,7 +32,7 @@
 
 ---
 
-### 🔹 Question 1.2 (ISRO CS 2020)
+### 🔹 Question 1.2 [ISRO CS 2020]
 **Q:** A memory system has a total capacity of $16\text{ MB}$. If the memory is word-addressable and the word size is 32 bits, how many address lines and data lines are needed?
 - **(A)** 22 address lines, 32 data lines
 - **(B)** 24 address lines, 32 data lines
@@ -50,7 +50,7 @@
 
 ---
 
-### 🔹 Question 1.3 (ISRO CS 2015)
+### 🔹 Question 1.3 [ISRO CS 2015]
 **Q:** How many $128 \times 8\text{ bit}$ RAM chips are needed to provide a memory capacity of $2048\text{ bytes}$?
 - **(A)** 8
 - **(B)** 16
@@ -65,7 +65,7 @@ $$\text{Number of chips} = \frac{2048\text{ Bytes}}{128\text{ Bytes}} = \frac{2^
 
 ---
 
-### 🔹 Question 1.4 (ISRO CS 2018 / 2013)
+### 🔹 Question 1.4 [ISRO CS 2018 / 2013]
 **Q:** An interrupt in which the external device supplies its own interrupt service routine (ISR) address directly or through an index is called:
 - **(A)** Maskable interrupt
 - **(B)** Vectored interrupt
@@ -79,7 +79,7 @@ $$\text{Number of chips} = \frac{2048\text{ Bytes}}{128\text{ Bytes}} = \frac{2^
 
 ---
 
-### 🔹 Question 1.5 (ISRO CS 2011)
+### 🔹 Question 1.5 [ISRO CS 2011]
 **Q:** If a clock frequency of a processor is $50\text{ MHz}$, the duration of one clock cycle is:
 - **(A)** $2\text{ ns}$
 - **(B)** $20\text{ ns}$
@@ -95,7 +95,7 @@ $$T = \frac{1}{f} = \frac{1}{50 \times 10^6\text{ Hz}} = \frac{10^{-6}}{50} = 0.
 
 # SECTION 2: BARC (Bhabha Atomic Research Centre - OCES/DGFS)
 
-### 🔹 Question 2.1 (BARC CSE Standard)
+### 🔹 Question 2.1 [BARC CSE 2018]
 **Q:** A computer has a 32-bit architecture. Instructions are 1 word long (32 bits). Memory is **byte-addressable**. If an instruction is fetched from memory location `0x0040`, what is the value stored in the Program Counter (PC) during the execution of this instruction?
 - **(A)** `0x0041`
 - **(B)** `0x0042`
@@ -113,7 +113,7 @@ $$T = \frac{1}{f} = \frac{1}{50 \times 10^6\text{ Hz}} = \frac{10^{-6}}{50} = 0.
 
 ---
 
-### 🔹 Question 2.2 (BARC CSE)
+### 🔹 Question 2.2 [BARC CSE 2019]
 **Q:** A processor with an internal clock running at $2\text{ GHz}$ executes a loop of 100 iterations. Each iteration contains:
 * 4 instructions taking 1 clock cycle each
 * 2 instructions taking 2 clock cycles each
@@ -138,7 +138,7 @@ How much total time does the CPU take to execute this entire loop?
 
 ---
 
-### 🔹 Question 2.3 (BARC CSE / Memory Interface)
+### 🔹 Question 2.3 [BARC CSE 2016]
 **Q:** How many $32\text{K} \times 8$ RAM chips and what size decoder are needed to design a $128\text{K} \times 32$ bit memory system?
 - **(A)** 16 chips, $2 \times 4$ decoder
 - **(B)** 16 chips, $3 \times 8$ decoder
@@ -161,7 +161,7 @@ How much total time does the CPU take to execute this entire loop?
 
 # SECTION 3: DRDO (RAC) & NIELIT (Scientist 'B') Questions
 
-### 🔹 Question 3.1 (NIELIT 2020 / DRDO RAC)
+### 🔹 Question 3.1 [NIELIT 2020 / DRDO RAC 2017]
 **Q:** When a subroutine is called or an interrupt occurs, the return address is stored in:
 - **(A)** Accumulator
 - **(B)** Instruction Register
@@ -174,7 +174,7 @@ The return address (content of PC) is pushed onto the **Stack** (managed by the 
 
 ---
 
-### 🔹 Question 3.2 (NIELIT 2017)
+### 🔹 Question 3.2 [NIELIT 2017]
 **Q:** A memory of $1\text{ GB}$ capacity is byte-addressable. The number of address bits needed is:
 - **(A)** 20
 - **(B)** 30
@@ -187,7 +187,7 @@ $$1\text{ GB} = 1 \times 2^{30}\text{ Bytes} \implies \log_2(2^{30}) = \mathbf{3
 
 ---
 
-### 🔹 Question 3.3 (DRDO RAC / NIELIT 2021)
+### 🔹 Question 3.3 [DRDO RAC 2019 / NIELIT 2021]
 **Q:** An instruction format has 16 bits. If the opcode takes 4 bits, and there are two register operand fields of 3 bits each, how many bits are left for an immediate operand or address?
 - **(A)** 6 bits
 - **(B)** 8 bits
@@ -203,7 +203,7 @@ $$\text{Remaining bits} = 16 - (\text{Opcode} + \text{Reg}_1 + \text{Reg}_2) = 1
 
 # SECTION 4: BSNL (JTO / TTA) & IOCL / CIL Questions
 
-### 🔹 Question 4.1 (BSNL JTO 2009 / IOCL)
+### 🔹 Question 4.1 [BSNL JTO 2009 / IOCL 2016]
 **Q:** The Program Counter (PC) in a digital computer:
 - **(A)** Counts the number of programs executed
 - **(B)** Counts the number of clock cycles taken by an instruction
@@ -215,7 +215,7 @@ $$\text{Remaining bits} = 16 - (\text{Opcode} + \text{Reg}_1 + \text{Reg}_2) = 1
 
 ---
 
-### 🔹 Question 4.2 (BSNL TTA / Telecom Technical Assistant)
+### 🔹 Question 4.2 [BSNL TTA 2016]
 **Q:** If a microprocessor has 16 address lines, what is its maximum addressable memory in bytes (assuming byte addressability)?
 - **(A)** $16\text{ KB}$
 - **(B)** $32\text{ KB}$
@@ -228,7 +228,7 @@ $$\text{Addressable locations} = 2^{16} = 65,536\text{ locations} = 64 \times 10
 
 ---
 
-### 🔹 Question 4.3 (IOCL / CIL MT Exam)
+### 🔹 Question 4.3 [IOCL / CIL MT 2020]
 **Q:** A processor with a clock period of $2.5\text{ ns}$ achieves an average CPI of 2.0. What is the execution speed of this processor in MIPS?
 - **(A)** 200 MIPS
 - **(B)** 400 MIPS
